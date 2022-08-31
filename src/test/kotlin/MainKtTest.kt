@@ -126,7 +126,7 @@ class MainKtTest {
         val result = taxCalc(cashTest, typeTest, summTest)
 
         //assert
-        Assertions.assertEquals(50.0, result)
+        Assertions.assertEquals(0.0, result)
     }
 
 
